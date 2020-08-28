@@ -41,11 +41,11 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-console.log('print All Names Using helloSpeaker Functions')
+// console.log('print All Names Using helloSpeaker Functions')
 
-for (var checkName in names) {
-  window.helloSpeaker.speak(names[checkName]);
-}
+// for (var checkName in names) {
+//   window.helloSpeaker.speak(names[checkName]);
+// }
 console.log('Solution*******************')
 
 for (var checkName in names) {
